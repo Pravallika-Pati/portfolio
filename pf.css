@@ -1,0 +1,370 @@
+body{
+    background: linear-gradient(rgb(158, 158, 220),rgb(56, 110, 190)),rgb(97, 176, 175);
+    font-family: "Montserrat";
+}  
+#title{
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    font-family: "Montserrat-Thin";
+    padding-bottom: 8%;
+    margin-left: 300px;
+    font-size:3rem;
+    color:rgb(54, 51, 46);
+    text-shadow: 2px 3px 2px rgb(169, 54, 54);
+    
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+    color: #4b4444;
+    text-shadow:2px 3px 2px #9c3b3b;
+    text-align: center;
+}
+h4{
+    font-weight: bold;
+}
+p{
+    color: black;
+    font: size 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+.navbar{
+    padding-bottom: .5rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size:3rem;
+    text-shadow: 2px 3px 2px black;
+    color:rgb(227, 94, 94);
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: black;
+    font-family: "Montserrat-Light";
+}
+#Certifications{
+   padding-top: 5% ;
+
+   margin-bottom: 4%;
+   margin-left: 7%;
+   border:1 px solid;
+    background-image: linear-gradient("#8bb2b2,#3063af");
+    box-shadow:5px 3px 2px 3px #888888;
+    width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.cert-column{
+    padding: 3% 3%;
+    /* justify-content: center;
+    text-align: center;
+    padding-right: 10px;
+    margin-bottom: 3%;
+    margin-left: 1%; */
+    /* background-color: aquamarine; */
+    /* box-shadow: 2px 3px 2px grey; */
+}
+.card-body{
+    /* box-shadow: 5px 10px 20px grey inset; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    background-color: pink;
+    padding-left:25%;
+    padding-bottom: 10%;
+}
+.feature-box{
+    text-align: center;
+}
+.abt{
+    text-align: center;
+    justify-content: center;
+    padding:7% 0%;
+    margin-bottom: 12%;
+    margin-left: 5%; 
+}
+.abt h1{
+    margin-left: 10%;
+    font-size:50px;
+} 
+.aboutme{
+    /* box-shadow: 3px 2px 3px grey inset; */
+    margin-top: 12%;
+    padding:7% 15%;
+    margin-left:8%;
+    font-size: 20px;
+    font-family: "Montserrat";
+    box-shadow:5px 3px 2px 3px #888888;
+    width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+   position:absolute;
+   font-family: "Montserrat-Thin";
+   font-size:10vw;
+   color:#252839;
+   -webkit-text-stroke:0.3vw #383d52;
+}
+h2::before{
+    content:attr(data);
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    color:pink;
+    -webkit-text-stroke:0vw #383d52;
+    /* border-right:2px solid #01fe87; */
+    overflow:hidden;
+    animation:animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width:0;
+    }
+    70%,90%{
+        width:100%;
+    }
+}
+
+#profiles{
+    padding:5% 15%;
+    text-align: center;
+    border:1 px solid;
+    background-image: linear-gradient("#8bb2b2,#3063af");
+    box-shadow:5px 3px 2px 3px #888888;
+    width: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    border: 0;
+    height: 650px;
+}
+
+.pro{
+   height:500px;
+   padding: 2rem;
+   background-color: rgb(114, 149, 177);
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.carousel-inner{
+    height:450px;
+}
+
+
+img{
+    max-width: 40%;
+    padding: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+* {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Skills{
+    background-color:rgb(64, 132, 153);
+    margin-bottom:9%;
+    padding-bottom: 4%;
+    margin: auto;
+    border: 0;
+    width: 85%;
+    box-shadow:5px 3px 2px 3px #56525e;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    margin: auto;
+    margin-top:6%;
+    /* margin-left: 12%; */
+    padding: 7% 15%;
+    width: 85%;
+}
+
+.skills {
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+    overflow: hidden;
+    padding: 2rem;
+
+    
+}
+
+.skills li {
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.bar {
+    background:#7f868bb3;
+    padding-right:3%;
+    margin-top:4%;
+    margin-bottom: 1%;
+    display: block;
+    height: 6px;
+    border: ipx solid rgba(0, 0, 0, 0, 3);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #244c71b3;
+}
+
+.bar span {
+    height: 5px;
+    float: left;
+    background: #2187e7;
+}
+
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+
+.css {
+    width: 80%;
+    animation: css 2s;
+}
+
+.java {
+    width: 70%;
+    animation: java 2s;
+}
+
+.cpp {
+    width: 85%;
+    animation: cpp 2s;
+}
+
+.bootstrap {
+    width: 80%;
+    animation: bootstrap 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes cpp {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes bootstrap{
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+/* footer{
+    background: #111;
+    padding-top:5%;
+    color: #fff;
+    text-align: center;
+} */
+marquee{
+    text-shadow: 2px 3px 4px red;
+}
+#footer{
+   background-color: #6aa7d8;
+   margin-top:6%;
+   margin-left: 8%;
+   /* margin: auto; */
+   margin-bottom: 0%;
+   padding: 5% 15%;
+   background-image: linear-gradient("#8bb2b2,#3063af");
+   box-shadow:5px 3px 2px 3px #888888;
+   width: 85%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+   padding: 0%;
+}
+label{
+    padding-right: 3%;
+    border:none;
+    font-size: 20px;
+    margin: 15px 0;
+}
+input,textarea{
+   margin-bottom: 3%;
+   font-size: 16px;
+   width: 40%;
+   border: 0;
+   outline: none;
+   border-radius: 3px;
+   padding: 10px 8px;
+}
+/* textarea{
+    padding-top: 10px;
+    margin-left: 10%;
+    resize: none;
+    font-size: 16px;
+   width: 40%;
+   border: 0;
+   outline: none;
+   border-radius: 3px;
+   padding: 12px 10px;
+  } */
+.cnt img{
+    margin-left:6%;
+    border-radius:50%;
+    float: left;
+    width: 25%;
+    padding: 10px; 
+}
+.cnt button{
+    margin-left:35%;
+}
+.sc-icon{
+    margin: 20px 10px;
+} 
+.f{
+    color: #fff;
+}
