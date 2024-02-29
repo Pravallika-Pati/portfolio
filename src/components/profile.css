@@ -1,0 +1,40 @@
+.container{
+    margin: auto;
+    max-width: 80%;
+}
+
+.profiles-container {
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.profile-logo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.profile-button {
+    background: none;
+    border: 1px solid #8ca6c6;
+    border-radius: 30px;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
+a {
+    color: #ced0d2;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .5s;
+}
+.box {
+    backdrop-filter: blur(5px);
+    background: hsla(0,0%,100%,.2);
+    border: 1px solid hsla(0,0%,100%,.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,.1);
+    padding: 35px;
+    text-align: center;
+}
+div {
+    display: block;
+}

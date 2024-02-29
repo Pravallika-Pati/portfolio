@@ -1,0 +1,23 @@
+header{
+    background: linear-gradient(90deg,#3b3876,#070a71 0,#5675d1 6%,#3bbdd7);
+        height: 10vh;
+        left: 0;
+        line-height: 10vh;
+        position: sticky;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    header a {
+      margin-left: 40px;
+    }
+    nav {
+        display: block;
+    }
+    a {
+      color: #ced0d2;
+      font-weight: 500;
+      text-decoration: none;
+      transition: .5s;
+    }
